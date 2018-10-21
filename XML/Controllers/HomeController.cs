@@ -36,7 +36,7 @@ namespace XML.Controllers
 
         public ActionResult ListRSS(string pageName)
         {
-            doc = XDocument.Load("C:\\Users\\hautv\\Documents\\Visual Studio 2013\\Projects\\GuiThay\\XML\\XML\\Models\\RSSList.xml");
+            doc = XDocument.Load(Server.MapPath("~/App_Data/RSSList.xml"));
             var RSSList = (from x in doc.Descendants("Page")
                            where (string)x.Parent.Attribute("name").Value == pageName
                            select new RSSCategory
