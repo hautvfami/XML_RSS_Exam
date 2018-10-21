@@ -1,0 +1,14 @@
+﻿@using XML.Models;
+@{
+    ViewBag.Title = "ListRSS";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ListRSS</h2>
+@if (ViewBag.RSSList != null)
+{
+    foreach (RSSCategory x in ViewBag.RSSList)
+    {
+        @Html.ActionLink(x.Category, "ListFeed", "Home", new { @RSSURL = x.Link }, new { @class = "btn btn-default" });
+    }
+}

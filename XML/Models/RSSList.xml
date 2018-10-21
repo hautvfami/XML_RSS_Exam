@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RSSList>
+  
+  <Site name="dantri">
+    <Page>
+      <Category>Trang chu</Category>
+      <Link>https://dantri.com.vn/trangchu.rss</Link>
+    </Page>
+    <Page>
+      <Category>Suc khoe</Category>
+      <Link>https://dantri.com.vn/suc-khoe.rss</Link>
+    </Page>
+    <Page>
+      <Category>Giao thong</Category>
+      <Link>https://dantri.com.vn/xa-hoi/giao-thong.rss</Link>
+    </Page>
+  </Site>
+
+  <Site name="vnexpress">
+    <Page>
+      <Category>Trang chu</Category>
+      <Link>https://vnexpress.net/rss/tin-moi-nhat.rss</Link>
+    </Page>
+    <Page>
+      <Category>Suc khoe</Category>
+      <Link>https://vnexpress.net/rss/suc-khoe.rss</Link>
+    </Page>
+    <Page>
+      <Category>Kinh doanh</Category>
+      <Link>https://vnexpress.net/rss/kinh-doanh.rss</Link>
+    </Page>
+  </Site>
+
+</RSSList>
